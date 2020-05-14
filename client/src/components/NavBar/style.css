@@ -1,0 +1,27 @@
+nav {
+    background-color: rgb(22, 120, 155);
+}
+
+a {
+    text-decoration: none;
+    color: white
+    
+}
+ a:hover {
+    text-decoration: underline;
+    color: white
+}
+
+.navbar-brand {
+    font-size: 35px;
+}
+
+.nav-item {
+    font-size: 25px;
+    display: inline-block;
+    padding: 25px;
+}
+
+.navbar-nav {
+    display: inline-block;
+}
