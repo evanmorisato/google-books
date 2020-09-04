@@ -3,7 +3,7 @@
 ### Overview
 This application is a React-based Google Books Search app. It uses the Google Books API to display search results. Users can search for books and then click "save book" to add them to a list of books that they can review or purchase later.
 
-##Live
+## Live
 https://googlebookappem.herokuapp.com/
 
 ## Screenshots
