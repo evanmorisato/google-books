@@ -17,7 +17,7 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://user:password1@ds127899.mlab.com:27899/heroku_t15nzdx4",
+  process.env.MONGODB_URI || "mongodb+srv://dbUser:dbUserPassword@cluster-t15nzdx4.xpsr0.mongodb.net/heroku_t15nzdx4?retryWrites=true&w=majority",
   { useNewUrlParser: true}
 ); 
 

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import API from "../../utils/API";
 import "./style.css";
+import background from '../../utils/bookbg.jpg'
 
 class Results extends Component {
 
@@ -24,12 +25,12 @@ class Results extends Component {
             API.saveBook(book)
                 .then(savedBook => this.setState({ savedBooks: this.state.savedBooks.concat([savedBook]) }))
                 .catch(err => console.error(err));
-        }
+    }
     }
 
     render() {
         return (
-            <div>
+            <div styles={{ backgroundImage: `url(${background})`}}>
                 {!this.props.books.length ? (
                     <h1 className="text-center">No Results to Display</h1>
                 ) : (
