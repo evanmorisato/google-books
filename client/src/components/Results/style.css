@@ -2,4 +2,12 @@
     margin-left: 7%;
     margin-right: 10%;
     margin-bottom: 5%;
+    border: 4mm ridge rgba(57, 185, 202, 0.6);
+    background-color: rgb(109, 155, 195);
 }
+
+/* img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */

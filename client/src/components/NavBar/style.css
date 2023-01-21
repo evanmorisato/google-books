@@ -13,8 +13,9 @@ a {
 }
 
 .navbar-brand {
-    font-size: 35px;
+    font-size: 50px;
     margin-right: 50%;
+    font-family: 'Poppins', sans-serif;
 }
 
 .nav-item {

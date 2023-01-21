@@ -30,7 +30,7 @@ class Results extends Component {
 
     render() {
         return (
-            <div styles={{ backgroundImage: `url(${background})`}}>
+            <div styles={{ backgroundImage: `url(${background})`}}> 
                 {!this.props.books.length ? (
                     <h1 className="text-center">No Results to Display</h1>
                 ) : (
