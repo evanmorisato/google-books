@@ -32,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/evanmorisato/google-books/issues"
   },
-  "homepage": "https://github.com/evanmorisato/google-books#readme"
+  "homepage": "https://github.com/evanmorisato/google-books#readme",
+  "devDependencies": {
+    "@wixc3/react-board": "^2.1.3"
+  }
 }
